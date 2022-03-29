@@ -1,0 +1,52 @@
+html {
+  background-image: url("https://z-p3-scontent.fmnl6-1.fna.fbcdn.net/v/t1.15752-9/253750718_563942098044640_1539702512779539808_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeFr0MvGgd9muNdg6YgGmNqXTKN0lmiQ-vRMo3SWaJD69GxLpmVy092lPoQZ74KYXn8WBvsRHMdlypOSySrgIPJe&_nc_ohc=qpCT-MB972AAX-w_FK7&_nc_ht=z-p3-scontent.fmnl6-1.fna&oh=03_AVJub4iWdiHdRbwveEvnxtmLDXpehaNSSeqXAtnYYTGImw&oe=6262C7FE");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  height: 100%;
+}
+#bord {
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 5), 0 5px 15px 0 rgba(0, 0, 0, 10);
+}
+.header1 {
+  font-size: 50px;
+  color: aliceblue;
+}
+
+#salaryHere {
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: bold;
+}
+#hpw,
+#pph {
+  font-size: 20px;
+  text-align: center;
+  padding: 2px;
+  border: solid #020202;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 5), 0 5px 15px 0 rgba(0, 0, 0, 10);
+  outline: none;
+}
+.btngo {
+  font-size: 25px;
+  color: #080808fb;
+  padding: 25px;
+  margin: 15px;
+  border-radius: 26px;
+  border-style: none;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 5), 0 5px 15px 0 rgba(0, 0, 0, 10);
+  outline: none;
+}
+.btngo:hover {
+  color: whitesmoke;
+  background-color: #070707fb;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  opacity: 1;
+  outline: none;
+}
+.btngo:active {
+  transform: translate(5px);
+  transition-duration: 0.1s;
+}
